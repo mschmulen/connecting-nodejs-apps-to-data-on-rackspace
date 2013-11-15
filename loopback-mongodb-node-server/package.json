@@ -1,0 +1,17 @@
+{
+  "name": "loopback-node-server",
+  "description": "",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "loopback": "~1.0.0",
+    "loopback-connector-mongodb": "~1.1.0-1"
+  },
+  "optionalDependencies": {
+    "strong-cluster-control": "~0.1.0",
+    "strong-agent": "~0.2.15"
+  }
+}

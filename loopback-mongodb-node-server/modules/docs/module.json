@@ -1,0 +1,3 @@
+{
+  "source": {"name":"loopback-node-server","applications":["app"]}
+}
