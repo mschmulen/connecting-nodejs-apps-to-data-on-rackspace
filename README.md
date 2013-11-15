@@ -5,6 +5,7 @@
 
 ![image](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/ObjectRocket4Black2.png)
 
+
 Data brings mobile applications to life and [MongoDB](http://www.mongodb.org/) is often a preferred choice for mobile first data.  MongoDB's powerful document oriented database combined with [Rackspace's MongoDB as a service platform ObjectRocket](http://www.objectrocket.com/) makes it easy to give your mobile stack a fast and reliable persistent data store in a matter of minutes.
 
 ###Standing up your Rackspace Node server
@@ -15,9 +16,9 @@ Standing up a rackspace server with StrongLoop Node and Loopback is easy with Ra
 
 Once you have your StrongLoop server running you can start binding your API to a data store.  StrongLoop has supported LoopBack connectors for:
 
-- [Connecting LoopBack to MongoDB](http://)
-- [Connecting LoopBack to OracleDB](http://)
-- [Connecting LoopBack to MySQL](http://)
+- [Connecting LoopBack to MongoDB](http://docs.strongloop.com/loopback-connector-mongodb/)
+- [Connecting LoopBack to OracleDB](http://docs.strongloop.com/loopback-connector-oracle/)
+- [Connecting LoopBack to MySQL](http://docs.strongloop.com/loopback-connector-mysql/)
 
 For this sample we are going to bind our LoopBack Mobile API tier to the ObjectRocket MongoDB hosted service.
 
@@ -50,7 +51,7 @@ ObjectRocket supports both the [native MongoDB drivers](http://docs.objectrocket
 
 #### Create your LoopBack API server
 
-Out of the box LoopBack is configured to run with an 'in-memory' data store. If you launched your LoopBack instance from the Rackspace 'Deployments' panel then LoopBack has 3 starter models predefined : 'Products', 'Customers' and 'Locations'.  You can also create a LoopBack application from scratch with the [slc](http://) commands below.  These commands work regardless of a cloud, on-premises or developer machine instantiation.
+Out of the box LoopBack is configured to run with an 'in-memory' data store. If you launched your LoopBack instance from the Rackspace 'Deployments' panel then LoopBack has 3 starter models predefined : 'Products', 'Customers' and 'Locations'.  You can also create a LoopBack application from scratch with the [slc](http://docs.strongloop.com/strongnode/#strongloop-control-slc) commands below.  These commands work regardless of a cloud, on-premises or developer machine instantiation.
 
 Creating a LoopBack Node server with the following slc command line :
 
