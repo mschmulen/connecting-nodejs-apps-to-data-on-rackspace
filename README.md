@@ -1,5 +1,5 @@
 
-#Connecting LoopBack to datasources on Rackspace
+#Connecting LoopBack to data sources on Rackspace part 1 of 3:
 
 ##MongoDB and LoopBack Node on Rackspace
 
