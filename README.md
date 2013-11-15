@@ -3,7 +3,7 @@
 
 ##MongoDB and LoopBack Node on Rackspace
 
-![image](http://yack/screenshots/ObjectRocket4Black2.png)
+![image](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/ObjectRocket4Black2.png)
 
 Data brings mobile applications to life and [MongoDB](http://www.mongodb.org/) is often a preferred choice for mobile first data.  MongoDB's powerful document oriented database combined with [Rackspace's MongoDB as a service platform ObjectRocket](http://www.objectrocket.com/) makes it easy to give your mobile stack a fast and reliable persistent data store in a matter of minutes.
 
@@ -31,20 +31,20 @@ Get up and running on the ObjectRocket in 4 steps. Check out their getting [star
 
 1. Create an ObjectRocket account at [objectRocket.com](http://www.objectrocket.com/)
 
-	![ create instance ](http://signup.png)
+	![ create instance ](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/signup.png)
 
 1. Create a instance 
 
-	![ create instance ](http://createinstance.png)
+	![ create instance ](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/createinstance.png)
 
 1. Create a database
 
-	![image](http://adddatabase.png)
+	![image](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/adddatabase.png)
 
 1. Add a ACL
 
-	![ create instance ](http://addacl.png)
-	![image](http://addacl2.png)
+	![ create instance ](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/addacl.png)
+	![image](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/addacl2.png)
 
 ObjectRocket supports both the [native MongoDB drivers](http://docs.objectrocket.com/native) as well as an [API](http://docs.objectrocket.com/api) so we can configure LoopBack to access the service via [LoopBacks MongoDB connector](http://docs.strongloop.com/loopback-connector-mongodb/).
 
@@ -108,7 +108,7 @@ slc run app.js
 
 Verifying your connection is simple with Loopback. Open a web browser to the loopback explorer page [http://localhost:3000/explorer](http://localhost:3000/explorer) and create a new instance of the 'product' type by selecting the 'POST' operation under 'Products'.
 
-![image](http://loopback-post-new-products.png)
+![image](http://raw.github.com/mschmulen/connecting-nodejs-apps-to-data-on-rackspace/master/screenshots/loopback-post-new-products.png)
 
 {"name": "myProduct" , "price":22.22 , "inventory": 33}
 
@@ -145,7 +145,6 @@ Response Headers
 You can verify the data was persisted in the MonogDB Data store by restarting your server and then calling the products endpoint to return all instances of the 'product type'
 
 [http://localhost:3000/products](http://localhost:3000/products)
-
 
 You will then see the resulting response return your previously posted data from your ObjectRocket MongoDB data store.
 
